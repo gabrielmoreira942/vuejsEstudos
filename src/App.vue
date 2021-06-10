@@ -1,26 +1,29 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">OLÁ KKKKKK
+  <div class="container grid-xs py-2">OLÁ KKKKKK
+  <img class=" img-responsive img-totoro" src="@/assets/totoro.jpg" alt="testes com totoro">
+  <form>
+      <div class="input-group">
+        <input type="text" class="form-input" placeholder="Spirited Away...">
+        <button class="btn btn-primary input-group-btn">Pesquisar filme</button>
+      </div>
+  </form>
+  </div>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style scoped>
+
+.img-totoro {
+  max-width: 200px;
+  margin: 0 auto;
 }
+
 </style>
